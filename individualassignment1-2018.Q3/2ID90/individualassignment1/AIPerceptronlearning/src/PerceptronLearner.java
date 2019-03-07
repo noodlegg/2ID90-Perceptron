@@ -34,6 +34,9 @@ public class PerceptronLearner {
         
         /*
         * Learning algorithm for w
+        * Will always run the first iteration in do
+        * until weight vector w has been modified 
+        * or when maxIterations has been reached
         */
         int iterations = 0; // Keeps track of amount of iterations
         boolean modifiedW = false; // Keeps track whether w is modified last iteration
